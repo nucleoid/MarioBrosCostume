@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<TextView android:id="@+id/seek_text" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:text="@string/seek_text" 
+		android:textSize="16sp"
+		android:paddingTop="100dp"
+		android:paddingBottom="15dp"
+		android:gravity="center" />
+		
+	<SeekBar android:id="@+id/seek"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="12"
+        android:progress="6" />
+
+</LinearLayout>
